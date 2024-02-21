@@ -4,47 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career Excel</title>
+    <title>Career Excellence Community</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+    
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 Support
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                  <li><a class="dropdown-item" href="#">Our Policy</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">FAQs</a></li>
-                </ul>
-              </li>
-              
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Career Excellence Community</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">Login/SignUp</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Support
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+              <li><a class="dropdown-item" href="#">Our Policy</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">FAQs</a></li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Body -->
       <div class="p-2 ">
         <img src="images/pro-banner.jpg" class="img-fluid banner" alt="Banner" style="height: 130px;">
           
@@ -55,11 +61,12 @@
       <div class="container text-center px-2 p-3">
         <div class="row">
           <div class="col">
+            <!-- Home Page Profile Block Left -->
             <div class="p-2 bg-light border">
               <div class="profile-body-first px-2 p-3" style="justify-content: center;" >
                 <div>
                   <a href="user-profile.html">                
-                    <img src="images/aryan-pers.jpg" alt="" id="" style="border-radius: 50%; width: 100px;" href="user-profile.html">
+                    <img src="images/aryan-pers.jpg" alt="" class="user-profile-banner" id="" style="border-radius: 50%; width: 100px;" href="user-profile.html">
                   </a>
                 </div>
 
@@ -76,52 +83,57 @@
             </div>
 
             <div class="p-3"></div>
-
+            <!-- Recent Posts Block Left Side Homepg-->
             <div class="p-2 bg-light border">
               <h4><a href="#">Recent</a></h4>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item"><label for="">Linkedin Networking</label></li>
-                <li class="list-group-item"><label for="">How to Build Communities</label></li>
-                <li class="list-group-item"><label for="">Personal Brand Play</label></li>
-                <li class="list-group-item"><label for="">Building a strong and sustainable personal brand</label></li>
-                <li class="list-group-item"><label for="">PDMA Product Development Management Association</label></li>
+                <li class="list-group-item"><a id="recently-viewpost" href="" style="text-decoration: none;">Linkedin Networking</a></li>
+                <li class="list-group-item"><a id="recently-viewpost" href="" style="text-decoration: none;">How to Build Communities</a></li>
+                <li class="list-group-item"><a id="recently-viewpost" href="">Personal Brand Play</a></li>
+                <li class="list-group-item"><a id="recently-viewpost" href="">Building a strong and sustainable personal brand</a></li>
+                <li class="list-group-item"><a id="recently-viewpost" href="">PDMA Product Development Management Association</a></li>
               </ul>
             </div>
             <div class="p-3"></div>
+
+            <!-- Joined Groups Block Left Side Homepg -->
             <div class="p-2 bg-light border">
               <h4><a href="#">Joined Groups</a></h4>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item"><label for="">Your Startup Stories</label></li>
-                <li class="list-group-item"><label for="">ENTREPRENEURS N STARTUPS</label></li>
-                <li class="list-group-item"><label for="">Marketing Communication</label></li>
-                <li class="list-group-item"><label for="">Blockchain, Web3 & AI Startups</label></li>
-                <li class="list-group-item"><label for="">HR Circle</label></li>
+                <li class="list-group-item"><a id="joined-group" href="">Your Startup Stories</a></li>
+                <li class="list-group-item"><a id="joined-group" href="">ENTREPRENEURS N STARTUPS</a></li>
+                <li class="list-group-item"><a id="joined-group" href="">Marketing Communication</a></li>
+                <li class="list-group-item"><a id="joined-group" href="">Blockchain, Web3 & AI Startups</a></li>
+                <li class="list-group-item"><a id="joined-group" href="">HR Circle</a></li>
               </ul>
             </div>
             <div class="p-3"></div>
-            <div class="p-2 bg-light border">
+
+            <!-- Events hosts block Left Side Homepg -->
+            <div class="p-2 bg-light border" id="events">
               <h4><a href="#">Events Host</a></h4>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">Linkedin Networking</li>
-                <li class="list-group-item">How To Make People From Follower To Client</li>
-                <li class="list-group-item">The 2024 Personal Brand Play</li>
-                <li class="list-group-item">Growing Organization Way</li>
-                <li class="list-group-item">The Antisocial Socialites - Networking & Self Love</li>
+                <li class="list-group-item"><a id="event-watched" href="">Linkedin Networking</a></li>
+                <li class="list-group-item"><a id="event-watched" href="" ></a></li>
+                <li class="list-group-item"><a id="event-watched" href="">The 2024 Personal Brand Play</a></li>
+                <li class="list-group-item"><a id="event-watched" href="">Growing Organization Way</a></li>
+                <li class="list-group-item"><a id="event-watched" href="">The Antisocial Socialites - Networking & Self Love</a></li>
               </ul>
             </div>
           </div>
           <div class="col-6">
+
+            <!-- Homepg Posts Display Section -->
             <div class="p-2 bg-light border">
               <div class="d-grid gap-2">
-                <!-- <button class="btn btn-primary" type="button">Start a Post</button> -->
-                <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                
                 <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
                 <label class="btn btn-outline-primary" for="btncheck1">Start a post</label>
 
                 <div class="btn-group" role="group" aria-label="Basic outlined example">
-                  <button type="button" class="btn btn-outline-primary">Left</button>
-                  <button type="button" class="btn btn-outline-primary">Middle</button>
-                  <button type="button" class="btn btn-outline-primary">Right</button>
+                  <button type="button" class="btn btn-outline-primary"><input type="file">Media</button>
+                  <button type="button" class="btn btn-outline-primary">Documents</button>
+                  <button type="button" class="btn btn-outline-primary">Articles</button>
                 </div>
                 
                 <div class="p-2 bg-light border">
@@ -130,9 +142,9 @@
                     <div class="card-header">
                       <label for=""><strong>Mayank Shah</strong></label>
                     </div>
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="images/job.png" class="card-img-top" alt="..." width="">
                     <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
+                      <h5 class="card-title">Urgnet Hiring!!</h5>
                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                       <!-- Like & Share Btn -->
                       <div class="btn-group">
@@ -162,10 +174,10 @@
                   <div class="card-header">
                     <label for=""><strong>Ishan Sharma</strong></label>
                   </div>
-                  <img src="..." class="card-img-top" alt="...">
+                  <img src="images/stanford.jpeg" class="card-img-top" alt="..." >
                   <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <h5 class="card-title">Stanford University Admission Begins</h5>
+                    <p class="card-text">Enroll in Your Desired Courses in Stanford. Full admission information is available at the university website.</p>
                     <!-- Like & Share Btn -->
                     <div class="btn-group">
                       <div class="">
@@ -184,7 +196,7 @@
                     </div>
                   </div>
                   <div class="card-footer text-muted">
-                    2 days ago
+                    5 days ago.
                   </div>
                 </div>
 
@@ -193,7 +205,7 @@
                   <div class="card-header">
                     <label for=""><strong>Akansha Pandey</strong></label>
                   </div>
-                  <img src="..." class="card-img-top" alt="...">
+                  <img src="images/help.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -286,28 +298,29 @@
                 
               </div>
             </div>
-            
           </div>
+
+          <!-- Messages Section in Homepg Right -->
           <div class="col">
             <div class="d-grid gap-2">
               <h2>Messages</h2>
               <nav class="navbar bg-light">
                 <form class="container-fluid">
-                  <div class="input-group">
-                    <span class="input-group-text" id="basic-addon1">@</span>
-                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                  </div>
+                  <label for="exampleDataList" class="form-label">Datalist example</label>
+                  <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                  <datalist id="datalistOptions">
+                    <option value="Rajiv Malhotra"></option>
+                    <option value="Vikas Saxena"></option>
+                    <option value="Subhash Agrawal"></option>
+                    <option value="M/s ONGC"></option>
+                    <option value="Mayank"></option>
+                    <option value=""></option>
+                  </datalist>
                 </form>
               </nav>
 
               
-              <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
-              </div>
+              
               <button type="button" class="btn btn-primary position-relative">
                 Inbox
                 <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
@@ -322,26 +335,35 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                      Rajiv
+                      <strong>Rajiv Malhotra</strong>
                     </button>
                   </h2>
-                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                     
                     <div class="accordion-body">
-                      Hey! Aryan
+                      Hey Aryan, i'm very fond of reading company's financial reports. You'll also try to make it your habit.
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                      <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+                      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                     </div>
                   </div>
+                  
               </div>
             <!-- Message Two -->
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                    Vikas
+                  <strong> Vikas Saxena</strong>
                   </button>
                 </h2>
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                   <div class="accordion-body">
-                    <strong>This is the second post's body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    Let's connect buddie, we're all set
+                  </div>
+                  <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                   </div>
                 </div>
               </div>
@@ -349,21 +371,244 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Accordion Item #3
+                    <strong>Subhash Agrawal</strong>
                   </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    Wow! Very exciting post it was.
+                  </div>
+                  <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                   </div>
                 </div>
               </div>
+            <!-- Message four -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <strong>M/s ONGC</strong>
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Excellent performance you've done last night.
+                    Kudos
+                  </div>
+                  <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                  </div>
+                </div>
+              </div>
+            <!-- Message five -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <strong>Mayank</strong>
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+              </div>
+            </div>
+            <!-- Message six -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                  <strong>Prafull</strong>
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+              </div>
+            </div>
+            <!-- Message seven -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+                  <strong>Anupam Mittal</strong>
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+              </div>
+            </div>
+            <!-- Message Eight -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
+                  <strong>Kunal Panday</strong>
+                </button>
+              </h2>
+              <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Hey, have you completed the exercise?
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+              </div>
+            </div>
+            <!-- Message Nine -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingNine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseThree">
+                  <strong>Ishita</strong>
+                </button>
+              </h2>
+              <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Hey! How can i help?
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+              </div>
+            </div>
+            <!-- Message Ten -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseThree">
+                  <strong>Vartika</strong>
+                </button>
+              </h2>
+              <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Hii! How are you?
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+              </div>
+            </div>
             </div>
               
             </div>
+            <!-- Messages End -->
+
+            <!-- Networks Block Right Side Homepg -->
+            <div class="p-3"></div>
+
+            <!-- Joined Groups Block Left Side Homepg -->
+            <div class="p-2 bg-light border">
+              <h4><a href="networks.html">Networks</a></h4>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><label id="network" for="network" href="">Rajiv Malhotra</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">Vikas Saxena</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">Subhash Agrawal</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">Mayank</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">HR Circle</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">Rajiv Malhotra</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">Vikas Saxena</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">Subhash Agrawal</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">Mayank</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">HR Circle</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">Rajiv Malhotra</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">Vikas Saxena</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">Subhash Agrawal</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">Mayank</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">HR Circle</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">Rajiv Malhotra</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">Vikas Saxena</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">Subhash Agrawal</a></li>
+                <li class="list-group-item"><label id="network" for="network" href="">Mayank</a></li>
+                    
+                </ul>
+              <hr>
+              <strong><a href="">Explore More</a></strong>
+            </div>
           </div>
+          
+
+          
       </div>
     </div>
+    <div class="footer">
+      <div class="f-box">
+       <div class="f-box f-header">
+           <h2> Career Excellence<span> Community</span></h2>
+       </div>
+      <div class="f-box">
+       
+       <ul>
+           <h2>General</h2>
+           <li>Sign Up</li>
+           <li>Help Center</li>
+           <li>About</li>
+           <li>Press</li>
+           <li>Blog</li>
+           <li>Careers</li>
+           <li>Developers</li>
+       </ul>
+      </div>
+      <div class="f-box">
+       
+       <ul>
+           <h2>Browse LinkedIn</h2>
+           <li>Learning</li>
+           <li>Jobs</li>
+           <li>Salary</li>
+           <li>Mobile</li>
+           <li>Services</li>
+           <li>Products</li>
+           <li>Top Companiesn Hub</li>
+       </ul>
+      </div>
+      <div class="f-box">
+      
+       <ul>
+           <h2>Business Solutions</h2>
+           <li>Talent</li>
+           <li>Marketing</li>
+           <li>Sales</li>
+           <li>Learning</li>                
+   </ul>
+      </div>
+      <div class="f-box">
+      
+       <ul>
+           <h2>Directories</h2>
+           <li>Members</li>
+           <li>Jobs</li>
+           <li>Companies</li>
+           <li>Featured</li>
+           <li>Leaning</li>
+           <li>Posts</li>
+           <li>Articles</li>
+           <li>Schools</li>
+           <li>News</li>
+           <li>News Letters</li>
+           <li>Services</li>
+           <li>Products</li>
+           <li>Advice</li>
+           <li>People Search</li>
+       </ul>
+      </div>
+      </div>       
+   </div>
 
 </body>
 </html>

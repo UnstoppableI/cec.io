@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
@@ -8,16 +9,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="user-profile.css">
+    <!-- <script src="popper.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link rel="php" href="user-profile.js">
+    
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Career Excellence Community</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -49,33 +52,36 @@
           </div>
         </div>
       </nav>
-      <div class="p-3 mb-2 bg-white text-dark">
+      
         
 <!-- Main Banner Image -->
-
-  <!-- <input type="image" src="images/harvard.jpeg" class="img-fluid" alt="..."> -->
-  <div class="p-2 ">
-    <img src="images/pro-banner.jpg" class="img-fluid banner" alt="Banner">
-        <div class="p-3">
-          <img src="images/aryan-pers.jpg" alt="" id="profile-photo">
-          
-        </div>
-  </div>
-  
-  
-  <div class="d-grid gap-3">
+  <div class="d-grid gap-3" style="margin: 50px; padding: 10px;">
+    
     <div class="p-2 bg-light border">
-      <div class="profile-body-first px-2 p-3">
+      <img src="images/pro-banner.jpg" class="img-fluid banner" alt="Banner">
+
+      <div class="profile-body-first px-2 p-3" >
+        
+        <img src="images/aryan-pers.jpg" alt="" id="profile-photo"><br>
         <label for="user_name">Aryan Agrawal</label>
         <label for="pronounce">(He/Him)</label><br>
-        <p runat="server"><label for="headline" aria-required="true">Mentorsity| Digital Creator | Web3 Enthusiast</label></p>
+        <label for="headline" aria-required="true">Mentorsity| Digital Creator | Web3 Enthusiast</label>
+        <br>
+        <label for="present-position">Product Manager Intern</label>
+        <label for="">,</label>
         <label for="present-company-name">Mentorsity</label><br>
-        <label for="address">Prayagraj, Uttar Pradesh, India</label>
+        <label for="present-address">Prayagraj, Uttar Pradesh, India</label>
         <br>
         <label for="connections_number">867</label> followers
         <br>
         <div class="btn-group" role="group" aria-label="Basic outlined example">
             <button type="button" class="btn btn-outline-primary">My Connections</button>
+            <!-- <a tabindex="1" class="btn btn-lg btn-danger" data-bs-content="Hello!!" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Dismissible popover">Dismissible popover</a>
+            <script>
+              const popover = new bootstrap.Popover('.popover-dismiss', {
+  trigger: 'focus'
+})
+            </script> -->
             <button type="button" class="btn btn-outline-primary">Messenger</button>
             <button type="button" class="btn btn-outline-primary">More</button>
         </div>
@@ -95,24 +101,25 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/Screenshot 2024-01-06 114121.png" width="100%" class="rounded mx-auto d-block" alt="...">                
+                <label for="first-post-img"><img src="images/Screenshot 2024-01-06 114121.png" width="500" class="rounded mx-auto d-block" alt="..."></label>                
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
+                  <label for="first-post-title">Techno World</label>
+                  <label for="first-post-description">Excited to share with you all, my new brand digital marketing agency.</label>
+                </div>
+              </div>
+              <div class="carousel-item" width="100%">
+                <label for="second-post-img"><img src="images/Screenshot 2024-01-06 114121.png" width="500"></label>
+                                
+                <div class="carousel-caption d-none d-md-block">
+                  <label for="second-post-title">Oxford College</label>
+                  <label for="second-post-description">My college is in the list of best Colleges in London.</label>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/oxford.png" width="70%">                
+                <label for="third-post-img"><img src="images/Screenshot 2024-01-06 114121.png" width="500px"></label>               
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/mit.png" width="70%">                
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
+                  <label for="third-post-title">MIT College View</label>
+                  <label for="third-post-description">Admission begins!! Join MIT College's best management courses.</label>
                 </div>
               </div>
             </div>
@@ -131,7 +138,7 @@
   
       <div class="p-2 bg-light border">
         <h2>About</h2>
-        <label for="about-user">I Aryan Agrawal, am a passionate content creator and tech-enthusiast. I have skills including UI designing, Problem-solving skills, and Programming skills in the IT sector as well as Marketing, Communication, and Business Development skills in the Business Sector.</label>
+        <label for="about-user" class="about-line">I Aryan Agrawal, am a passionate content creator and tech-enthusiast. I have skills including UI designing, Problem-solving skills, and Programming skills in the IT sector as well as Marketing, Communication, and Business Development skills in the Business Sector.</label>
       </div>
 
     <div class="p-2 bg-light border">
@@ -149,36 +156,39 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                    Post 1
+                    <label for="first-post-title">First Post Title</label>
                   </button>
                 </h2>
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                   <div class="accordion-body">
-                    <strong>This is the first post's body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <label for="first-post-description">
+                    This is the first post's body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.
+                    </label>
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                    Post 2
+                    <label for="second-post-title">Second Post Title</label>
                   </button>
                 </h2>
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                   <div class="accordion-body">
-                    <strong>This is the second post's body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <label for="second-post-description">Second Post Description</label>  
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                    Post 3
+                    <label for="third-post-title">Third Post Title</label>
                   </button>
                 </h2>
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                   <div class="accordion-body">
-                    <strong>This is the third post's body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <label for="third-post-description"><strong>This is the third post's body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.
+                  </label>  
                   </div>
                 </div>
               </div>
@@ -239,7 +249,10 @@
       <label for="undergraduate-institute-name" class="undergraduate-degree">Uniited Institute of Management</label><br>
       <label for="undergraduate-degree" class="undergraduate-degree">BCA</label><br>
       <label for="undergraduate-start-date" class="undergraduate-degree">Jun 2021</label> - <label for="undergraduate-end-date">Mar 2024</label>
-      
+      <h3>Intermediate / Senior Secondary</h3>
+      <label for="intermediate-institute-name">Lions School Mirzapur</label>
+      <label for="intermediate-start-date">Apr 2020</label>
+      <label for="intermediate-end-date">May 2021</label>
     </div>
     
     <div class="p-2 bg-light border">
@@ -248,26 +261,26 @@
         <ul class="list-group list-group-flush">
           <li class="list-group-item">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="certificate1-name">Python For Machine Learning Certificate</h5>
+              <label for="certificate1-name">Python For Machine Learning Certificate</label>
               <label for="certificate1-date" >Jan 2024</label>
             </div>
-            <p class="certificate1-organization">Udemy</p>
+            <label for="certificate1-organization">Udemy</label>
             
           </li>
           <li class="list-group-item">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="certificate2-name">Javascript (Beginners) Certificate</h5>
+              <label for="certificate2-name">Javascript (Beginners) Certificate</label>
               <label for="certificate2-date" >Jun 2023</label>
             </div>
-            <p class="certificate2-organization">HackerRank</p>
+            <label for="certificate2-organization">HackerRank</label>
             
           </li>
           <li class="list-group-item">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="certificate3-name">C++ Programming Certificate</h5>
+              <label for="certificate3-name">C++ Programming Certificate</label>
               <label for="certificate3-date" >Dec 2022</label>
             </div>
-            <p class="certificate3-organization">Description of Certificate</p>
+            <label for="certificate3-organization">Description of Certificate</label>
             
           </li>
         </ul>
