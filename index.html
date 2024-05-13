@@ -4,611 +4,233 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career Excellence Community</title>
+    <title>Career Excel</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    
 </head>
 <body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Career Excellence Community</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="signup.html">Login/SignUp</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-             Support
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
-              <li><a class="dropdown-item" href="#">Our Policy</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">FAQs</a></li>
-            </ul>
-          </li>
-          
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Main Body -->
-      <div class="p-2 ">
-        <img src="images/pro-banner.jpg" class="img-fluid banner" alt="Banner" style="height: 130px;">
-          
-      </div>
-
-      
-      
-      <div class="container text-center px-2 p-3">
-        <div class="row">
-          <div class="col">
-            <!-- Home Page Profile Block Left -->
-            <div class="p-2 bg-light border">
-              <div class="profile-body-first px-2 p-3" style="justify-content: center;" >
-                <div>
-                  <a href="user-profile.html">                
-                    <img src="images/aryan-pers.jpg" alt="" class="user-profile-banner" id="" style="border-radius: 50%; width: 100px;" href="user-profile.html">
-                  </a>
-                </div>
-
-                <label for="user_name">Aryan Agrawal</label>
-                <label for="pronounce">(He/Him)</label><br>
-                <p runat="server"><label for="headline" aria-required="true">Mentorsity| Digital Creator | Web3 Enthusiast</label></p>
-              </div>
-              <a href="user-profile.html"><button type="button" class="btn btn-primary position-relative">
-                Profile
-                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
-                  <span class="visually-hidden">New alerts</span>
-                </span>
-              </button></a>
+    
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/home.png" alt="home"></a>
+            
+            <div class="search-box">
+                <img src="images/search.jpg" alt="">
+                <input type="text" placeholder="Search">
             </div>
-
-            <div class="p-3"></div>
-            <!-- Recent Posts Block Left Side Homepg-->
-            <div class="p-2 bg-light border">
-              <h4><a href="#">Recent</a></h4>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item"><a id="recently-viewpost" href="" style="text-decoration: none;">Linkedin Networking</a></li>
-                <li class="list-group-item"><a id="recently-viewpost" href="" style="text-decoration: none;">How to Build Communities</a></li>
-                <li class="list-group-item"><a id="recently-viewpost" href="">Personal Brand Play</a></li>
-                <li class="list-group-item"><a id="recently-viewpost" href="">Building a strong and sustainable personal brand</a></li>
-                <li class="list-group-item"><a id="recently-viewpost" href="">PDMA Product Development Management Association</a></li>
-              </ul>
-            </div>
-            <div class="p-3"></div>
-
-            <!-- Joined Groups Block Left Side Homepg -->
-            <div class="p-2 bg-light border">
-              <h4><a href="#">Joined Groups</a></h4>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item"><a id="joined-group" href="">Your Startup Stories</a></li>
-                <li class="list-group-item"><a id="joined-group" href="">ENTREPRENEURS N STARTUPS</a></li>
-                <li class="list-group-item"><a id="joined-group" href="">Marketing Communication</a></li>
-                <li class="list-group-item"><a id="joined-group" href="">Blockchain, Web3 & AI Startups</a></li>
-                <li class="list-group-item"><a id="joined-group" href="">HR Circle</a></li>
-              </ul>
-            </div>
-            <div class="p-3"></div>
-
-            <!-- Events hosts block Left Side Homepg -->
-            <div class="p-2 bg-light border" id="events">
-              <h4><a href="#">Events Host</a></h4>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item"><a id="event-watched" href="">Linkedin Networking</a></li>
-                <li class="list-group-item"><a id="event-watched" href="" ></a></li>
-                <li class="list-group-item"><a id="event-watched" href="">The 2024 Personal Brand Play</a></li>
-                <li class="list-group-item"><a id="event-watched" href="">Growing Organization Way</a></li>
-                <li class="list-group-item"><a id="event-watched" href="">The Antisocial Socialites - Networking & Self Love</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-6">
-
-            <!-- Homepg Posts Display Section -->
-            <div class="p-2 bg-light border">
-              <div class="d-grid gap-2">
-                
-                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck1">Start a post</label>
-
-                <div class="btn-group" role="group" aria-label="Basic outlined example">
-                  <button type="button" class="btn btn-outline-primary"><input type="file">Media</button>
-                  <button type="button" class="btn btn-outline-primary">Documents</button>
-                  <button type="button" class="btn btn-outline-primary">Articles</button>
-                </div>
-                
-                <div class="p-2 bg-light border">
-                  <div class="card text-center">
-                    
-                    <div class="card-header">
-                      <label for=""><strong>Mayank Shah</strong></label>
-                    </div>
-                    <img src="images/job.png" class="card-img-top" alt="..." width="">
-                    <div class="card-body">
-                      <h5 class="card-title">Urgnet Hiring!!</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <!-- Like & Share Btn -->
-                      <div class="btn-group">
-                        <div class="">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-                          </svg>
-                          <p>Like</p>
-                        </div>
-                        <div style="margin-left: 10px; margin-right: 10px;"></div>
-                        <div>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
-                            <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
-                          </svg>
-                          <p>Share</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-footer text-muted">
-                      2 days ago
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card text-center">
-                    
-                  <div class="card-header">
-                    <label for=""><strong>Ishan Sharma</strong></label>
-                  </div>
-                  <img src="images/stanford.jpeg" class="card-img-top" alt="..." >
-                  <div class="card-body">
-                    <h5 class="card-title">Stanford University Admission Begins</h5>
-                    <p class="card-text">Enroll in Your Desired Courses in Stanford. Full admission information is available at the university website.</p>
-                    <!-- Like & Share Btn -->
-                    <div class="btn-group">
-                      <div class="">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-                        </svg>
-                        <p>Like</p>
-                      </div>
-                      <div style="margin-left: 10px; margin-right: 10px;"></div>
-                      <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
-                          <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
-                        </svg>
-                        <p>Share</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-footer text-muted">
-                    5 days ago.
-                  </div>
-                </div>
-
-                <div class="card text-center">
-                    
-                  <div class="card-header">
-                    <label for=""><strong>Akansha Pandey</strong></label>
-                  </div>
-                  <img src="images/help.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <!-- Like & Share Btn -->
-                    <div class="btn-group">
-                      <div class="">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-                        </svg>
-                        <p>Like</p>
-                      </div>
-                      <div style="margin-left: 10px; margin-right: 10px;"></div>
-                      <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
-                          <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
-                        </svg>
-                        <p>Share</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-footer text-muted">
-                    2 days ago
-                  </div>
-                </div>
-
-                <div class="card text-center">
-                    
-                  <div class="card-header">
-                    <label for=""><strong>Akarsh Srivastava</strong></label>
-                  </div>
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <!-- Like & Share Btn -->
-                    <div class="btn-group">
-                      <div class="">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-                        </svg>
-                        <p>Like</p>
-                      </div>
-                      <div style="margin-left: 10px; margin-right: 10px;"></div>
-                      <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
-                          <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
-                        </svg>
-                        <p>Share</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-footer text-muted">
-                    2 days ago
-                  </div>
-                </div>
-
-                <div class="card text-center">
-                    
-                  <div class="card-header">
-                    <label for=""><strong>Aryan Agrawal</strong></label>
-                  </div>
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <!-- Like & Share Btn -->
-                    <div class="btn-group">
-                      <div class="">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-                        </svg>
-                        <p>Like</p>
-                      </div>
-                      <div style="margin-left: 10px; margin-right: 10px;"></div>
-                      <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
-                          <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5"/>
-                        </svg>
-                        <p>Share</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-footer text-muted">
-                    2 days ago
-                  </div>
-                </div>
-
-              </div>
-              <div class="d-grid gap-2">
-                
-              </div>
-            </div>
-          </div>
-
-          <!-- Messages Section in Homepg Right -->
-          <div class="col">
-            <div class="d-grid gap-2">
-              <h2>Messages</h2>
-              <nav class="navbar bg-light">
-                <form class="container-fluid">
-                  <label for="exampleDataList" class="form-label">Datalist example</label>
-                  <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
-                  <datalist id="datalistOptions">
-                    <option value="Rajiv Malhotra"></option>
-                    <option value="Vikas Saxena"></option>
-                    <option value="Subhash Agrawal"></option>
-                    <option value="M/s ONGC"></option>
-                    <option value="Mayank"></option>
-                    <option value=""></option>
-                  </datalist>
-                </form>
-              </nav>
-
-              
-              
-              <button type="button" class="btn btn-primary position-relative">
-                Inbox
-                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                  99+
-                  <span class="visually-hidden">unread messages</span>
-                </span>
-                
-                
-              </button>
-              <div class="accordion" id="accordionPanelsStayOpenExample">
-              <!-- Message First -->
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                      <strong>Rajiv Malhotra</strong>
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
-                    
-                    <div class="accordion-body">
-                      Hey Aryan, i'm very fond of reading company's financial reports. You'll also try to make it your habit.
-                    </div>
-                    <div class="input-group input-group-sm mb-3">
-                      <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
-                      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                    </div>
-                  </div>
-                  
-              </div>
-            <!-- Message Two -->
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                  <strong> Vikas Saxena</strong>
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                  <div class="accordion-body">
-                    Let's connect buddie, we're all set
-                  </div>
-                  <div class="input-group input-group-sm mb-3">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
-                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                  </div>
-                </div>
-              </div>
-            <!-- Message Three -->
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <strong>Subhash Agrawal</strong>
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    Wow! Very exciting post it was.
-                  </div>
-                  <div class="input-group input-group-sm mb-3">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
-                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                  </div>
-                </div>
-              </div>
-            <!-- Message four -->
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFour">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    <strong>M/s ONGC</strong>
-                  </button>
-                </h2>
-                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    Excellent performance you've done last night.
-                    Kudos
-                  </div>
-                  <div class="input-group input-group-sm mb-3">
-                    <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
-                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                  </div>
-                </div>
-              </div>
-            <!-- Message five -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFive">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  <strong>Mayank</strong>
-                </button>
-              </h2>
-              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-                <div class="input-group input-group-sm mb-3">
-                  <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
-                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                </div>
-              </div>
-            </div>
-            <!-- Message six -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingSix">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
-                  <strong>Prafull</strong>
-                </button>
-              </h2>
-              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-                <div class="input-group input-group-sm mb-3">
-                  <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
-                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                </div>
-              </div>
-            </div>
-            <!-- Message seven -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingSeven">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
-                  <strong>Anupam Mittal</strong>
-                </button>
-              </h2>
-              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-                <div class="input-group input-group-sm mb-3">
-                  <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
-                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                </div>
-              </div>
-            </div>
-            <!-- Message Eight -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingEight">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
-                  <strong>Kunal Panday</strong>
-                </button>
-              </h2>
-              <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Hey, have you completed the exercise?
-                </div>
-                <div class="input-group input-group-sm mb-3">
-                  <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
-                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                </div>
-              </div>
-            </div>
-            <!-- Message Nine -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingNine">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseThree">
-                  <strong>Ishita</strong>
-                </button>
-              </h2>
-              <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Hey! How can i help?
-                </div>
-                <div class="input-group input-group-sm mb-3">
-                  <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
-                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                </div>
-              </div>
-            </div>
-            <!-- Message Ten -->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTen">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseThree">
-                  <strong>Vartika</strong>
-                </button>
-              </h2>
-              <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Hii! How are you?
-                </div>
-                <div class="input-group input-group-sm mb-3">
-                  <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
-                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                </div>
-              </div>
-            </div>
-            </div>
-              
-            </div>
-            <!-- Messages End -->
-
-            <!-- Networks Block Right Side Homepg -->
-            <div class="p-3"></div>
-
-            <!-- Joined Groups Block Left Side Homepg -->
-            <div class="p-2 bg-light border">
-              <h4><a href="networks.html">Networks</a></h4>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item"><label id="network" for="network" href="">Rajiv Malhotra</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">Vikas Saxena</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">Subhash Agrawal</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">Mayank</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">HR Circle</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">Rajiv Malhotra</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">Vikas Saxena</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">Subhash Agrawal</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">Mayank</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">HR Circle</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">Rajiv Malhotra</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">Vikas Saxena</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">Subhash Agrawal</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">Mayank</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">HR Circle</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">Rajiv Malhotra</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">Vikas Saxena</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">Subhash Agrawal</a></li>
-                <li class="list-group-item"><label id="network" for="network" href="">Mayank</a></li>
-                    
+        
+        </div>
+        <div class="navbar-center">
+                <ul>
+                    <li><a href="#"><img src="images/home.png" alt="home">
+                    <span>Home</span></a></li>
+                    <li><a href="#"><img src="images/network.png" alt="network"><span>My Network</span></a></li>
+                    <li><a href="#"><img src="images/job2.png" alt="jobs"><span>Jobs</span></a></li>
+                    <li><a href="#"><img src="images/messaging.jpg" alt="Messaging"><span>Messaging</span></a></li>
+                    <li><a href="#"><img src="images/chat.png" alt="Notify"><span>Notifications</span></a></li>
                 </ul>
-              <hr>
-              <strong><a href="">Explore More</a></strong>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="" alt="" class="nav-profile-img" onclick="toggleMenu()">
             </div>
-          </div>
-          
+            
+            <!-- -------------profile-drop-down-menu------------- -->
+        <div class="nav-profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/aryan-pers.jpg" alt="">
+                    <div>
+                        <label for="name"><h3>Aryan Agrawal</h3></label>
+                
+                        
+                            <select name="" id="">
+                                <option value="0"><a href="#">See your profile</a></option>
+                                <option value="1"><a href="#" class="profile-menu-link"><p>Give Feedback</p></a></option>
+                                <option value="2"><a href="#" class="profile-menu-link">
+                                    <img src="images/seting.png" alt="" class="profile-menu-img">
+                                    <p>Settings & Privacy</p>
+                                    <span></span>
+                                </a></option>
+                                <option value="3"><a href="#" class="profile-menu-link">
+                                    <img src="images/help.png" alt="" class="profile-menu-img">
+                                    <p>Help & Support</p>
+                                    <span></span>
+                                </a></option>
+                                <option value="4"><a href="#" class="profile-menu-link">
+                                    <img src="images/job.png" alt="" class="profile-menu-img">
+                                    <p>Display & Accessibility</p>
+                                    <span></span>
+                                </a></option>
+                                <option value="5"><a href="" class="profile-menu-link">
+                                    <img src="images/logout.png" alt="" class="profile-menu-img">
+                                    <p>Logout</p>
+                                    <span></span>
+                                </a></option>
+                            </select>
+                            
+                            <br>
+                        
+                    </div>
+                </div>
+                
+                
+                    
+                <!-- <hr>
+                    
+                    
+                    
+                    
+                    
+                </div> -->
+            </div>
+    </nav>
 
-          
-      </div>
-    </div>
-    <div class="footer">
-      <div class="f-box">
-       <div class="f-box f-header">
-           <h2> Career Excellence<span> Community</span></h2>
-       </div>
-      <div class="f-box">
-       
-       <ul>
-           <h2>General</h2>
-           <li>Sign Up</li>
-           <li>Help Center</li>
-           <li>About</li>
-           <li>Press</li>
-           <li>Blog</li>
-           <li>Careers</li>
-           <li>Developers</li>
-       </ul>
-      </div>
-      <div class="f-box">
-       
-       <ul>
-           <h2>Browse LinkedIn</h2>
-           <li>Learning</li>
-           <li>Jobs</li>
-           <li>Salary</li>
-           <li>Mobile</li>
-           <li>Services</li>
-           <li>Products</li>
-           <li>Top Companiesn Hub</li>
-       </ul>
-      </div>
-      <div class="f-box">
-      
-       <ul>
-           <h2>Business Solutions</h2>
-           <li>Talent</li>
-           <li>Marketing</li>
-           <li>Sales</li>
-           <li>Learning</li>                
-   </ul>
-      </div>
-      <div class="f-box">
-      
-       <ul>
-           <h2>Directories</h2>
-           <li>Members</li>
-           <li>Jobs</li>
-           <li>Companies</li>
-           <li>Featured</li>
-           <li>Leaning</li>
-           <li>Posts</li>
-           <li>Articles</li>
-           <li>Schools</li>
-           <li>News</li>
-           <li>News Letters</li>
-           <li>Services</li>
-           <li>Products</li>
-           <li>Advice</li>
-           <li>People Search</li>
-       </ul>
-      </div>
-      </div>       
-   </div>
+    <!-- navbar close -->
 
+    <!-- Main Started -->
+    <section class="main">
+        
+        <div class="left-side">
+            <div class="profile-body">
+                <img src="images/pro-banner.jpg" alt="" id="banner">
+                <div class="profile-photo">
+                    <label for="user-image"><img src="images/aryan-pers.jpg" alt="" id="profile-photo"></label>
+                </div>
+              <div class="profile-body-data">
+                <div class="profile-body-first">
+                    <label for="name"><h4>ARYAN AGRAWAL</h4></label>
+                    <label for="pronounce">(He/Him)</label>
+                    <label for="profile-heading">Digital Content Creator|AI, Tech, & Skill Based| Web3 Enthusiast</label>
+                    <label for="expertise">Talks about #ai, #webdesigning, #communication</label>
+                    <br>
+                    <label for="address">Prayagraj, Uttar Pradesh, India  <a href="#">Contact info</a><br>
+                    </label>
+                    <a href="#">Explore My Websiite</a>
+                    <h4>656 followers  500+ connections</h4>
+                    <span>
+                        <button>Open to</button>
+                        <button>Add profile section</button>
+                        <button>More</button>
+                    </span>
+                </div>
+              
+                <div class="profile-body-second">
+                    <ul type="none">
+                        <li>
+                            <label for="company-logo"><img src="images/home.png" alt="" style="width: 30px;"></label>
+                            <label for="company"><p>100 community</p></label>
+                        </li>
+                        <li>
+                            <label for="college-logo"><img src="images/home.png" alt="" style="width: 30px;"></label>
+                            <label for="college-name"><p>United Institute of Management FUGS</p></label>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+              
+            <div class="profile-body">
+                <h4>Verifications</h4>
+                <span>
+                    <img src="" alt="">
+                    <h5>Government ID
+                    <p>You've verified your goverrnment ID</p>
+                    </h5>
+                </span>
+            </div>  
+              
+              <div class="profile-body">
+                <h4>Resources</h4>
+                
+                    <h5>Creator mode On</h5><p>Get discovered, showcase content on your profile and get access to creator tools</p>
+                    <h5>My Network</h5><p>See and manage your connections and interests</p>
+              </div>
+                <div class="profile-body">
+                    <h4>Featured</h4>
+                        <div class="posts">
+                            <div class="post" id="post-1">
+                                <label for="content"><img src="images/aryan-pers.jpg" width="200px" alt=""></label><br>
+                                <label for="post-title"><p>Desinging creative youtube thumbnails using canva</p></label>
+                            </div>
+        
+                            <div class="post" id="post-2">
+                                <label for="content"><img src="images/pro-banner.jpg" alt="" width="150px"></label><br>
+                                <label for="post-title">Feeling proud to announce that i've successfully get a certifications for Web Development Internship completion.</label>
+                            </div>
+        
+                            <div class="post" id="post-3">
+                                <label for="post-title"></label>
+                            </div>
+                        </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <div>
+                <h4>Profile Language</h4>
+                <img src="" alt="">
+                <label for="Language"><p>English</p></label>
+
+                <br>
+                <h4>Public Profile & URL</h4>
+                <img src="" alt="">
+                <p>www.linkedin.com/in/aryan-agrawal-62b50321a</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>See  who's viewed your profile in the last 90 days</p>
+            </div>
+            <br>
+            <div>
+                <h4>People also viewed</h4>
+                <ul type="none">
+                    <li>
+                        <label for="user-image"><img src="" alt=""></label>
+                        <label for="name"><h5>Vikas Prajapati</h5></label>
+                        <label for="profile-heading">BCA'24| Tech Enthusiast |Learning full stack</label>
+                        <br>
+                        <button>message</button>
+                    </li>
+                    <li>
+                        <label for="user-image"><img src="" alt=""></label>
+                        <label for="name"><h5>Akarsh Srivastava</h5></label>
+                        <label for="profile-heading">BCA'24| Tech Enthusiast |Learning full stack</label>
+                        <br>
+                        <button>message</button>
+                    </li>
+                    <li>
+                        <label for="user-image"><img src="" alt=""></label>
+                        <label for="name"><h5>Shobhit Singh</h5></label>
+                        <label for="profile-heading">BCA'24| Tech Enthusiast |Learning full stack</label>
+                        <br><button>message</button>
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <div>
+                <h4>People you may know</h4>
+                <p>From your job title</p>
+                <br>
+                <span>
+                    <label for="user-image"><img src="images/user.png" class="logo" alt="" width="30px"></label>
+                    <label for="name"><p>Madhav Tyagi</p></label>
+                    <label for="occupation">Aerospace Engineering</label>
+                </span>
+            </div>
+        </div>
+    
+
+    </section>
+
+
+    <script>
+        let profileMenu=document.getElementById("profileMenu");
+
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+    </script>
 </body>
 </html>
